@@ -1,4 +1,4 @@
-FROM rabbitmq:3.7.6
+FROM rabbitmq:3.8
 RUN rabbitmq-plugins enable --offline \
   rabbitmq_auth_backend_http \
   rabbitmq_management \
